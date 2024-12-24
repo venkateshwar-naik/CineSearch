@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <h1> Find Your Movie Here:</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput"  placeholder="Search for movies...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="movies" id="moviesContainer"></div>
+    </div>
+
+    <div class="modal" id="movieModal" style="display: none;">
+        <div class="modal-content">
+            <button class="close" id="closeModal">&times;</button>
+            <div id="movieDetails"></div>
+        </div>
+    </div>
+    
+
+    <script src="jss.js"></script>
+</body>
+</html>
